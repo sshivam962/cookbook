@@ -17,9 +17,9 @@ class RecipesController < ApplicationController
 
   # GET /recipes/1/edit
   def edit
+    # This function is used to edit the data.
   end
 
-  # POST /recipes or /recipes.json
   def create
     @recipe = Recipe.new(recipe_params)
 
